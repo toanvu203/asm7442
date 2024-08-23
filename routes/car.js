@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const CharacterModel = require('../models/characterModel');
+const CharacterModel = require('../models/CharacterModel');
 
 const CarModel = require('../models/CarModel');
 
