@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const CarModel = require('../models/CarModel');
-var CharacterModel = require('../models/characterModel');
+var CharacterModel = require('../models/CharacterModel');
 router.get('/', (req, res) => {
  
   res.render('index', { title: "Car store" })
